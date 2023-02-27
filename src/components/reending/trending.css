@@ -1,0 +1,38 @@
+.tranding{
+    margin-top: 50px;
+}
+
+.tranding h1{
+    font-size: 60px;
+    margin-top: 0;
+}
+
+@media(max-width: 768px){
+    .tranding h1{
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .tranding{
+        position: relative;
+        height: 60vh !important;
+    }
+
+    .tranding .coverImage img {
+        width: 100vw;
+        height: 70vh !important;
+    }
+
+    .tranding .content {
+        flex-direction:  column;
+        padding: 50px;
+    }
+
+    .tranding .row{
+        width: 100%;
+    }
+
+    .tranding .playButton{
+        display: none;
+    }
+}

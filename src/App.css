@@ -143,3 +143,10 @@ p{
 .MovieBox button i{
     margin-right: 10px;
 }
+
+@media(max-width: 768px){
+    .MovieBox{
+        width: 300px;
+        height: 250px;       
+    }
+}

@@ -128,3 +128,33 @@
 .margin{
     margin-top: 50%;
 }
+
+
+@media (max-width: 768px){
+    .homeContainer h1{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .home{
+        position: relative;
+        margin: 0;
+        height: 60vh !important;
+    }
+
+    .coverImage img{
+        width: 100vw;
+        height: 70vh !important;
+    }
+
+    .home .row{
+        width: 100%;
+    }
+    .home .playButton{
+        display: none;
+    }
+
+    .margin{
+        margin-top: 0 !important;
+    }
+}

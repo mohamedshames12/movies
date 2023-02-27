@@ -3,6 +3,8 @@ import React from "react";
 import { BrowserRouter as Router, Route , Routes } from "react-router-dom";
 import Heater from "./components/heater/Heater";
 import HomePage from "./Home/HomePage";
+import Footer from "./components/footer/Footer";
+import SinglePage from "./Home/watch/SinglePage";
 
 function App() {
   return(
@@ -11,7 +13,9 @@ function App() {
           <Heater />
           <Routes>
               <Route path="/" element={<HomePage />} />  
-          </Routes>  
+              <Route path="/singlePage:id" element={<SinglePage />} />  
+          </Routes>
+          <Footer />
         </Router> 
     </>
   ) 
